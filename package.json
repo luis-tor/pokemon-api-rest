@@ -1,0 +1,16 @@
+{
+  "name": "consumo-api-rest",
+  "version": "1.0.0",
+  "description": "Curso para consumir una API rest con JS Vanilla, HTML y CSS",
+  "main": "./js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Consumo"
+  ],
+  "author": "Luis Torres",
+  "license": "MIT"
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon API REST</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <main class="container">
+        <section class="pokemon-card">
+            <header class="pokemon-tittle">
+                <h1 id="pokemon-name"></h1>
+                <p class="category-name">Nombre</p>
+            </header>
+            <main class="pokemon-image">
+                <img id="pokemon-image" alt="">
+            </main>
+            <aside class="pokemon-info">
+                <p id="pokemon-id"></p>
+                <p class="category-name"># en la Pokedex</p>
+            </aside>
+            <footer class="pokemon-footer">
+                <p id="pokemon-type"></p>
+                <p class="category-name">Tipo</p>
+            </footer>
+        </section>
+        <button class="button" onclick="renderPokemon()">Busca otro Pokemón</button>
+    </main>
+
+
+</body>
+</html>
