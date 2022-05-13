@@ -37,6 +37,11 @@ const renderPokemon = async () => {
     id.innerHTML = pokemon.id;
     const types = document.getElementById("pokemon-type");
     types.innerHTML = pokemon.types.map(type => `<span class="type">${type.toUpperCase()}</span>`).join("");
+    
+    const heigth = document.getElementById("pokemon-height");
+    heigth.innerHTML = pokemon.heigth + " ft";
+    const weight = document.getElementById("pokemon-weight");
+    weight.innerHTML = pokemon.weight + " lbs";
 }
 
 

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemon API REST</title>
+    <title>Pick a random Pokémon</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/desktop-style.css" media="screen  and (min-width: 768px)">
     <script src="./js/index.js"></script>
 </head>
 <body>
@@ -13,14 +14,23 @@
         <section class="pokemon-card">
             <header class="pokemon-tittle">
                 <h1 id="pokemon-name"></h1>
-                <p class="category-name">Nombre</p>
             </header>
             <main class="pokemon-image">
                 <img id="pokemon-image" alt="">
             </main>
             <aside class="pokemon-info">
-                <p id="pokemon-id"></p>
-                <p class="category-name"># en la Pokedex</p>
+                <div class="info-container">
+                    <p id="pokemon-id"></p>
+                    <p class="category-name"># en la Pokedex</p>
+                </div>
+                <div class="info-container">
+                    <p id="pokemon-height"></p>
+                    <p class="category-name">Altura</p>
+                </div>
+                <div class="info-container">
+                    <p id="pokemon-weight"></p>
+                    <p class="category-name">Peso</p>
+                </div>
             </aside>
             <footer class="pokemon-footer">
                 <p id="pokemon-type"></p>

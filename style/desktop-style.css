@@ -1,0 +1,15 @@
+
+.container{
+    flex-direction: row;
+}
+.pokemon-card{
+    width: 30%;
+}
+.pokemon-image{
+    height: 40vh;
+}
+.button{
+    width: 30%;
+    margin-left: 4rem;
+    margin-top: 0rem;
+}
